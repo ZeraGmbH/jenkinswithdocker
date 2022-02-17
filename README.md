@@ -4,7 +4,7 @@ The jenkins user id matches the autobuilder needs.
 
 ## UPDATE
 
-´´´
+```
 docker pull jenkins:lts-jdk11
 docker build -t $COMPANY/jenkinswithdocker .
 docker push $COMPANY/jenkinswithdocker
