@@ -1,0 +1,7 @@
+chmod 770  /mnt/workData/docker/volumes/
+systemctl start docker.service
+chmod 777 /var/run/docker.sock
+
+./stop-jenkins.sh
+./start-jenkins.sh
+
